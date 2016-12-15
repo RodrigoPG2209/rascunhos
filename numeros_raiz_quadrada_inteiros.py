@@ -15,7 +15,7 @@ def sqrt_int_noint():
         if final < inicio:
             print("O valor inicial deve ser menor que o final. A operacao sera reiniciada.")
             print("   ")
-        elif inicio < 0 or final < 0:
+        elif inicio <= 0 or final <= 0:
             print("Tanto o valor inicial quanto o final devem ser maiores que zero.")
             print("   ")
         else:
